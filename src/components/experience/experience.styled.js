@@ -6,6 +6,9 @@ import colors from '../../colors'
 
 const Main = styled.div`
   text-align: right;
+  @media (max-width: 800px) {
+    text-align: left;
+  }
 `
 const Company = styled.p`
   margin: 0;

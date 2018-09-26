@@ -18,10 +18,10 @@ const Experience = () => {
       </Description>
       <Grid>
         <Row>
-          <Col xs={12} md={4}>
+          <Col xs={12} sm={3}>
             <Item company="MB3 Technologies" start="March 2014" />
           </Col>
-          <Col xs={12} mdOffset={1} md={6}>
+          <Col xs={12} smOffset={1} sm={7}>
             <ItemDescription position="Senior Developer / Team Lead">
               A large portion of my role at MB3 is a Team Lead. In that position
               I help the two development teams by providing context, direction
@@ -38,14 +38,14 @@ const Experience = () => {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={4}>
+          <Col xs={12} sm={3}>
             <Item
               company="Conservative Resource Group (CRG)"
               start="November 2010"
               end="March 2014"
             />
           </Col>
-          <Col xs={12} mdOffset={1} md={6}>
+          <Col xs={12} smOffset={1} sm={7}>
             <ItemDescription position="Web Developer">
               CRG provides all the resources to the Conservate Members of
               Parliament. Our team was providing a veriety of services both to

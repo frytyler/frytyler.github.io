@@ -16,7 +16,7 @@ const CoreValues = () => {
       </Description>
       <Grid>
         <Row>
-          <Col xs={1} md={4}>
+          <Col xs={12} md={4}>
             <SubHeading>
               Invest in
               <br />
@@ -28,7 +28,7 @@ const CoreValues = () => {
               <Item>Encourages Healthy Living</Item>
             </List>
           </Col>
-          <Col xs={1} md={4}>
+          <Col xs={12} md={4}>
             <SubHeading>
               Identify Opportunity <br />
               for Leadership
@@ -39,7 +39,7 @@ const CoreValues = () => {
               <Item>Allows for Creativity</Item>
             </List>
           </Col>
-          <Col xs={1} md={4}>
+          <Col xs={12} md={4}>
             <SubHeading>
               Explore <br />
               Curiousity
