@@ -22,7 +22,7 @@ const Experience = () => {
             <Item company="MB3 Technologies" start="March 2014" />
           </Col>
           <Col xs={12} smOffset={1} sm={7}>
-            <ItemDescription position="Senior Developer / Team Lead">
+            <ItemDescription position="Team Lead / Senior Developer">
               A large portion of my role at MB3 is a Team Lead. In that position
               I help the two development teams by providing context, direction
               and support. This is done through a variety of ways including
@@ -47,8 +47,8 @@ const Experience = () => {
           </Col>
           <Col xs={12} smOffset={1} sm={7}>
             <ItemDescription position="Web Developer">
-              CRG provides all the resources to the Conservate Members of
-              Parliament. Our team was providing a veriety of services both to
+              CRG provides all the resources to the Conservative Members of
+              Parliament. Our team was providing a variety of services both to
               internal staff as well as MP’s. We built a platform to provide
               each MP with a unique website that they could control. The
               platform provided a library of plugins targeted to their market.
