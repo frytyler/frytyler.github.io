@@ -28,7 +28,7 @@ module.exports = {
       options: {
         fonts: [
           `josefin sans\:700`,
-          `montserrat\:300,400,400i,500,500i,600,600i,800`,
+          `montserrat\:200,300,400,400i,500,500i,600,600i,800`,
         ],
       },
     },
