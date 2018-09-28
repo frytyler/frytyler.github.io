@@ -42,6 +42,9 @@ export const SubHeading = styled.h4`
   font-weight: 400;
   position: relative;
   padding-bottom: 0.75rem;
+  @media (max-width: 500px) {
+    margin-top: 2rem;
+  }
   &::after {
     content: '';
     width: 40px;
