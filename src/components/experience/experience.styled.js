@@ -59,7 +59,7 @@ const Description = styled.div`
 
 const Content = styled.p`
   line-height: 1.5rem;
-  font-weight: 200;
+  font-weight: 300;
 `
 
 export const ItemDescription = ({ position, children }) => {

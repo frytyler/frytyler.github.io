@@ -31,7 +31,7 @@ export const Description = styled.p`
   text-align: ${({ align }) => align || 'center'};
   margin: 0;
   margin-bottom: 3rem;
-  font-weight: 200;
+  font-weight: 300;
   ${({ top }) => top && `margin-top: ${top}rem`};
 `
 
