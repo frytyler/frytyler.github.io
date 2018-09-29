@@ -70,3 +70,22 @@ export const ItemDescription = ({ position, children }) => {
     </Description>
   )
 }
+
+export const List = styled.ul`
+  margin: 0;
+  padding: 0;
+  list-style: none;
+`
+
+export const ListItem = styled.li`
+  margin: 10px 0;
+  position: relative;
+  &::before {
+    content: '•';
+    font-size: 2rem;
+    color: ${colors.primary};
+    position: absolute;
+    top: -0.1rem;
+    left: -0.8rem;
+  }
+`

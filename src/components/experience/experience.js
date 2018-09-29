@@ -4,7 +4,7 @@ import { Grid, Row, Col } from 'react-styled-flexboxgrid'
 
 import { Anchor } from '../typography.styled'
 import { Section, Heading, Description } from '../section'
-import { Item, ItemDescription } from './experience.styled'
+import { Item, ItemDescription, List, ListItem } from './experience.styled'
 
 const Experience = () => {
   return (
@@ -23,17 +23,38 @@ const Experience = () => {
           </Col>
           <Col xs={12} smOffset={1} sm={7}>
             <ItemDescription position="Team Lead / Senior Developer">
-              A large portion of my role at MB3 is a Team Lead. In that position
-              I help the two development teams by providing context, direction
-              and support. This is done through a variety of ways including
-              mentorship and training. <br />
+              <b>Team Lead</b>
               <br />
-              My remaining time is spent as a senior fullstack developer. Our
-              current legacy product is built in Coldfusion + MsSQL and jQuery
-              frontend. We have been working on multiple solutions to modernize
-              this through Node.js, MySQL, Mongo, RxJS in the backend and the
-              full React ecosystem in the frontend.
-              <br /> <br />
+              <List>
+                <ListItem>
+                  As a team lead I provide mentorship and training for our two
+                  development teams. This includes providing context, direction
+                  and support.
+                </ListItem>
+                <ListItem>
+                  I’ve been involved in the direction of the product and the
+                  setting priorities / goals for each team.
+                </ListItem>
+              </List>
+              <b>Senior Developer</b>
+              <br />
+              <List>
+                <ListItem>
+                  One of my roles as a full stack developer is on our current
+                  product where I look for opportunities to improve the
+                  architecture.
+                </ListItem>
+                <ListItem>
+                  I lead a project that is implementing a variety of
+                  improvements and modernizing our tech stack as well.
+                </ListItem>
+                <ListItem>
+                  Current Tech Stack: ColdFusion, MsSQL, jQuery
+                  <br />
+                  Modern Tech Stack: Node.js, MsSQL, Mongo, RxJS, React and
+                  others.
+                </ListItem>
+              </List>
             </ItemDescription>
           </Col>
         </Row>
@@ -47,19 +68,25 @@ const Experience = () => {
           </Col>
           <Col xs={12} smOffset={1} sm={7}>
             <ItemDescription position="Web Developer">
-              CRG provides all the resources to the Conservative Members of
-              Parliament. Our team was providing a variety of services both to
-              internal staff as well as MP’s. We built a platform to provide
-              each MP with a unique website that they could control. The
-              platform provided a library of plugins targeted to their market.
-              <br />
-              <br />
-              Through building that platform and a number of other services, I
-              was able to learn very valuable skills that I continue to use
-              everyday. <br />
-              <br />
-              The stack consisted of PHP, MySQL, Javascript, Backbone and
-              others.
+              <List>
+                <ListItem>
+                  CRG provides all the resources to the Conservative Members of
+                  Parliament. Our team was providing a variety of services both
+                  to internal staff as well as MP’s. We built a platform to
+                  provide each MP with a unique website that they could control.
+                  The platform provided a library of plugins targeted to their
+                  market.
+                </ListItem>
+                <ListItem>
+                  Through building that platform and a number of other services,
+                  I was able to learn very valuable skills that I continue to
+                  use everyday.
+                </ListItem>
+                <ListItem>
+                  The stack consisted of PHP, MySQL, Javascript, Backbone and
+                  others.
+                </ListItem>
+              </List>
             </ItemDescription>
           </Col>
         </Row>
