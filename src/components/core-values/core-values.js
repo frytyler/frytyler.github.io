@@ -42,7 +42,7 @@ const CoreValues = () => {
           <Col xs={12} md={4}>
             <SubHeading>
               Explore <br />
-              Curiousity
+              Curiosity
             </SubHeading>
             <List>
               <Item>Expects Excellence</Item>
