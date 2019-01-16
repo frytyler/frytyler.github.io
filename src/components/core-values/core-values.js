@@ -30,8 +30,8 @@ const CoreValues = () => {
           </Col>
           <Col xs={12} md={4}>
             <SubHeading>
-              Identify Opportunity <br />
-              for Leadership
+              Explore <br />
+              Curiosity
             </SubHeading>
             <List>
               <Item>Gives Freedom to Learn</Item>
@@ -41,8 +41,8 @@ const CoreValues = () => {
           </Col>
           <Col xs={12} md={4}>
             <SubHeading>
-              Explore <br />
-              Curiosity
+              Identify Opportunity <br />
+              for Leadership
             </SubHeading>
             <List>
               <Item>Expects Excellence</Item>

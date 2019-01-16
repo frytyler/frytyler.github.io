@@ -32,8 +32,8 @@ const Experience = () => {
                   and support.
                 </ListItem>
                 <ListItem>
-                  I’ve been involved in the direction of the product and the
-                  setting priorities / goals for each team.
+                  I’ve been involved in the direction of the product and setting
+                  priorities and goals for each team.
                 </ListItem>
               </List>
               <b>Senior Developer</b>
@@ -45,14 +45,15 @@ const Experience = () => {
                   architecture.
                 </ListItem>
                 <ListItem>
-                  I lead a project that is implementing a variety of
-                  improvements and modernizing our tech stack as well.
+                  I lead a project that is modernizing our tech stack using
+                  React, Node and other tools.
                 </ListItem>
                 <ListItem>
                   Current Tech Stack: ColdFusion, MsSQL, jQuery
-                  <br />
-                  Modern Tech Stack: Node.js, MsSQL, Mongo, RxJS, React and
-                  others.
+                </ListItem>
+                <ListItem>
+                  Modern Tech Stack: Node.js, MySQL, Mongo, RxJS, React, GraphQL
+                  and others.
                 </ListItem>
               </List>
             </ItemDescription>
