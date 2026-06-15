@@ -1,0 +1,213 @@
+---
+---
+
+<section class="site-section no-divider" id="experience">
+  <div class="container">
+    <h1 class="section-heading">Experience</h1>
+    <p class="section-description">
+      Listed below are my most recent full-time roles. Refer to my
+      <a class="styled-anchor" href="https://github.com/frytyler">GitHub</a> account for
+      some other work.
+    </p>
+
+    <div class="timeline">
+
+      <!-- Orderful -->
+      <div class="row timeline-row">
+        <div class="col-12 col-sm-3">
+          <div class="company-block">
+            <p class="company-name">Orderful</p>
+            <em class="date-range">October 2024 – Present</em>
+          </div>
+        </div>
+        <div class="col-12 col-sm-7 col-sm-offset-1">
+          <div class="role-block">
+            <h4 class="left-sub-heading">Staff Engineer</h4>
+            <div class="role-content">
+              <ul class="role-list">
+                <li>Driving AI adoption across the engineering org — building
+                  the agentic workflows, shared tooling, and team culture that
+                  make working with AI sustainable at scale.</li>
+                <li>Designed and shipped reusable agent primitives and shared
+                  knowledge systems that compound across every team and
+                  project.</li>
+                <li>Established org-wide practices for AI-assisted development:
+                  tooling standards, review patterns, and the infrastructure
+                  that keeps the agent layer evolving as fast as the models do.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Shopify & Flexport -->
+      <div class="row timeline-row">
+        <div class="col-12 col-sm-3">
+          <div class="company-block">
+            <p class="company-name">Shopify &amp; Flexport</p>
+            <em class="date-range">February 2019 – October 2024</em>
+          </div>
+        </div>
+        <div class="col-12 col-sm-7 col-sm-offset-1">
+          <div class="role-block">
+            <h4 class="left-sub-heading">Staff Engineer · Engineering Manager · Senior Software Engineer</h4>
+            <div class="role-content">
+              <p class="role-label"><strong>Staff Engineer</strong> — January 2023 – October 2024</p>
+              <ul class="role-list">
+                <li>Led B2B Fulfillment product for medium and enterprise-level
+                  merchants following Shopify's acquisition by Flexport in June 2023.</li>
+                <li>Coordinated technical design across 8 independent services and
+                  collaborated with multiple teams to align on resource allocation.</li>
+                <li>Expanded the EDI platform by adding 18 direct retailer
+                  integrations, driving a 20% increase in monthly shipped orders.</li>
+              </ul>
+              <p class="role-label"><strong>Engineering Manager</strong> — March 2021 – January 2023</p>
+              <ul class="role-list">
+                <li>Led the Orders team as we grew from 5 to 23 engineers. Directly
+                  managed 8–10 direct reports and 6 sub-reports.</li>
+                <li>Delivered 10+ projects that directly shaped the business and
+                  played a pivotal role in driving promotions for engineers into
+                  senior IC and EM roles.</li>
+                <li>Part of the leadership trifecta (Eng, Product, UX) that set
+                  team direction and roadmapped quarterly with bi-weekly business reviews.</li>
+              </ul>
+              <p class="role-label"><strong>Senior Software Engineer</strong> — February 2019 – March 2021</p>
+              <ul class="role-list">
+                <li>Built a 0-to-1 product with a team dedicated to quality,
+                  scalability, and usability — the foundation for future leadership
+                  roles at Shopify.</li>
+                <li>Actively pursued leadership opportunities: mentoring interns,
+                  conducting interviews, and participating in engineering management training.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MB3 -->
+      <div class="row timeline-row">
+        <div class="col-12 col-sm-3">
+          <div class="company-block">
+            <p class="company-name">MB3 Technologies</p>
+            <em class="date-range">March 2014 – February 2019</em>
+          </div>
+        </div>
+        <div class="col-12 col-sm-7 col-sm-offset-1">
+          <div class="role-block">
+            <h4 class="left-sub-heading">Team Lead</h4>
+            <div class="role-content">
+              <ul class="role-list">
+                <li>Led two development teams building grant management software.
+                  During my time we grew the commercial offering from 5 US states to 16.</li>
+                <li>Spearheaded the creation of a new software product aimed at
+                  streamlining client acquisition, and provided mentorship,
+                  direction, and training across both teams.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+  .timeline-row {
+    margin-bottom: 3rem;
+  }
+
+  .company-block {
+    text-align: right;
+    padding-top: 0.25rem;
+  }
+
+  @media (max-width: 600px) {
+    .company-block {
+      text-align: left;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .company-name {
+    margin: 0;
+    font-weight: 400;
+  }
+
+  .date-range {
+    font-size: 0.725rem;
+    color: #8a8a8a;
+  }
+
+  .role-block {
+    position: relative;
+  }
+
+  .role-block::before {
+    content: '';
+    border: 3px solid var(--color-primary);
+    border-radius: 50%;
+    background: #fff;
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    position: absolute;
+    top: 0.25rem;
+    left: -68px;
+    z-index: 1;
+  }
+
+  .role-block::after {
+    content: '';
+    width: 1px;
+    height: 110%;
+    background: #aaa;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: -58px;
+  }
+
+  @media (max-width: 600px) {
+    .role-block::before,
+    .role-block::after {
+      display: none;
+    }
+  }
+
+  .role-content {
+    line-height: 1.5rem;
+    font-weight: 300;
+    margin-top: 1.5rem;
+  }
+
+  .role-label {
+    margin: 1rem 0 0.25rem;
+    font-weight: 300;
+  }
+
+  .role-label:first-child {
+    margin-top: 0;
+  }
+
+  .role-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .role-list li {
+    margin: 10px 0;
+    position: relative;
+    padding-left: 0.8rem;
+  }
+
+  .role-list li::before {
+    content: '•';
+    font-size: 2rem;
+    color: var(--color-primary);
+    position: absolute;
+    top: -0.1rem;
+    left: -0.8rem;
+  }
+</style>

@@ -1,0 +1,77 @@
+---
+const aiSkills = [
+  'AI Strategy',
+  'MCP (Model Context Protocol)',
+  'Agentic Workflows',
+  'LLM Application Development',
+  'Prompt Engineering',
+]
+
+const techSkills = [
+  'TypeScript',
+  'Node.js',
+  'React',
+  'Ruby on Rails',
+  'SQL',
+  'AWS',
+  'Kafka',
+  'Serverless',
+]
+
+const leadershipSkills = [
+  'Engineering Leadership',
+  'Technical Design',
+  'Mentorship',
+  'Product Roadmapping',
+  'Storytelling',
+]
+---
+
+<section class="site-section" id="skills">
+  <div class="container">
+    <h1 class="section-heading">Skills</h1>
+    <div class="row skills-row">
+      <div class="col-12 col-md-4">
+        <h4 class="sub-heading">AI &amp; Agents</h4>
+        <ul class="skill-list">
+          {aiSkills.map(s => <li>{s}</li>)}
+        </ul>
+      </div>
+      <div class="col-12 col-md-4">
+        <h4 class="sub-heading">Technical</h4>
+        <ul class="skill-list">
+          {techSkills.map(s => <li>{s}</li>)}
+        </ul>
+      </div>
+      <div class="col-12 col-md-4">
+        <h4 class="sub-heading">Leadership</h4>
+        <ul class="skill-list">
+          {leadershipSkills.map(s => <li>{s}</li>)}
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .skills-row {
+    margin-top: 1rem;
+  }
+
+  .skill-list {
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+  }
+
+  .skill-list li {
+    text-align: center;
+    padding: 0.625rem 0;
+    font-weight: 300;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .skill-list li:last-child {
+    border-bottom: none;
+  }
+</style>
