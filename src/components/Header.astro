@@ -1,0 +1,95 @@
+---
+---
+
+<header class="hero">
+  <img class="avatar" src="/avatar.jpg" alt="Tyler Fry" />
+  <span class="tag">Hello</span>
+</header>
+<div class="social-strip">
+  <a href="https://github.com/frytyler" class="social-link" target="_blank" rel="noopener">GitHub</a>
+  <span class="social-divider">·</span>
+  <a href="https://linkedin.com/in/tylerfry/" class="social-link" target="_blank" rel="noopener">LinkedIn</a>
+  <span class="social-divider">·</span>
+  <a href="https://x.com/frytyler" class="social-link" target="_blank" rel="noopener">X / @frytyler</a>
+</div>
+
+<style>
+  .hero {
+    position: relative;
+    border-top: 10px solid #676767;
+    background: #eeeeee;
+    height: 275px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .tag {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 200px;
+    color: #fff;
+    position: relative;
+    bottom: -40%;
+    text-transform: uppercase;
+    line-height: 1;
+  }
+
+  .avatar {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -85px;
+    margin-top: -85px;
+    border-radius: 100%;
+    border: 3px solid #fff;
+    width: 170px;
+    height: 170px;
+    z-index: 1;
+    object-fit: cover;
+  }
+
+  @media (max-width: 600px) {
+    .tag {
+      font-size: 130px;
+      bottom: -60%;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .tag {
+      font-size: 100px;
+      bottom: -70%;
+    }
+  }
+
+  .social-strip {
+    background: #fff;
+    border-bottom: 1px solid #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+  }
+
+  .social-link {
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: var(--color-text);
+    text-transform: uppercase;
+    transition: color 0.2s ease;
+  }
+
+  .social-link:hover {
+    color: var(--color-primary);
+  }
+
+  .social-divider {
+    color: #ccc;
+    font-size: 0.9rem;
+  }
+</style>

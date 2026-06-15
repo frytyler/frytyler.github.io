@@ -60,5 +60,9 @@ typings/
 
 # next.js build output
 .next
-/public
+
+# Astro build output
+dist/
+.astro/
+
 .DS_Store
